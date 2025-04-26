@@ -54,5 +54,34 @@ Login to your dashboard and create new repository as shoen below
 
 2.  Add a new file book_reviews.html to represent the Book Reviews Section and add a random content
 
-3.  Stage, Commit, and Push Changes with a message "Add book reviews section." and Push the add-book-reviews  branch to GitHub.
-4.  Raise a PR for Morgan's work and Merge Morgan's work to the **main branch**
+3.  Stage, Commit, and Push Changes with a message "Add book reviews section." and Push the add-book-reviews  branch to GitHub using this command as shown in the following dialog
+
+`git push --set-upstream origin add-book-reviews`
+
+![Git add and commit](img/push-new-branch.PNG)
+
+4.  Raise a PR for Morgan's work and Merge Morgan's work to the **main branch** by clicking on the pull requests menu and select **compare and pull request button**. Add a title and optional description, compare the changes and resolve any conflict and click on **create pull request as shown below**
+
+![Git add and commit](img/create-new-pr.png)
+
+5.  Merge Morgan's work to the main branch. If there is no conflict, click on the button **Merge pull request**. Write the commit message and the extended description and click on the **Confirm merge** as shown in these two screenshots
+
+![Git add and commit](img/merge-pull-request.PNG)
+
+![Git add and commit](img/confrim-merge.PNG)
+
+You will get a confirmation message that _Pull request successfully merged and closed_ and option to delete the branch
+
+# Jamie's Work: Updating Events Page
+
+I will repeat the same flow for Jamie's work on Events Page and ensure Jamie's work is in _update-events_ branch
+
+1.  Creating the update-events branch to hold Jamie's work by using this command
+
+`git checkout -b update-events`
+
+2.  Pull the latest changes from the main branch into _update-events_
+`git pull`
+3.  Update the events.html, stage, commit and push to the origin
+4.  Raise a PR for Jamie's work and Merge Jamie's work to the **main branch** by following the above procedures
+
