@@ -38,8 +38,10 @@ Login to your dashboard and create new repository as shoen below
 4.  Stage, commit and push the changes directly to the **main**  branch as shown in the screenshot below. (This is a simulation of the team's existing code base for the website)
 
 `git add`
+
 `git commit -m "adding the HTNL pages to the website"`
+
 `git push`
 
 
-    ![Git Upstream](img/git-add-and-commit.PNG)
+![Git add and commit](img/git-add-and-commit.PNG)
