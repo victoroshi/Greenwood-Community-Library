@@ -45,3 +45,14 @@ Login to your dashboard and create new repository as shoen below
 
 
 ![Git add and commit](img/git-add-and-commit.PNG)
+
+## Morgan's Work: Adding Book Reviews
+
+1.  Create a Branch for Morgan, Switch to a new branch named add-book-reviews using thr folling commands
+
+`git checkout -b add-book-reviews`
+
+2.  Add a new file book_reviews.html to represent the Book Reviews Section and add a random content
+
+3.  Stage, Commit, and Push Changes with a message "Add book reviews section." and Push the add-book-reviews  branch to GitHub.
+4.  Raise a PR for Morgan's work and Merge Morgan's work to the **main branch**
