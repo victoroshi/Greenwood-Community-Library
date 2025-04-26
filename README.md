@@ -13,13 +13,20 @@ b.  Gain experience in staging, committing, and pushing changes from both develo
 c.  Create pull requests and merge them after resolving any potential conflicts.
 
 ## Let's begin the setup in order to achieve the above objectives
+Login to your dashboard and create new repository as shoen below
+
+![Git Upstream](img/git-clone.PNG)
+
 1.  Create a Repository on GitHub and name it greenwood-library-website as shown in the following diagram. Also initialize it with a README.md 
+
 ![Git Upstream](img/new-repository.PNG)
 
 2.  Copy the HTTPS URL of the new repository and clone it to your local machine as demonstrated below:
+
     ![Git Upstream](img/https-url.PNG)
 
     clone using the `git clone` command as shown in this screenshot
+
     ![Git Upstream](img/git-clone.PNG)
 
 3.  In the main branch, using Visual Studio Code editor ensure there are files for each of the web pages and add a random content to each of the file.
@@ -28,4 +35,11 @@ c.  Create pull requests and merge them after resolving any potential conflicts.
             events.html
             contact_us.html
 
-4.  Stage, commit and push the changes directly to the **main**  branch. (This is a simulation of the team's existing code base for the website)
+4.  Stage, commit and push the changes directly to the **main**  branch as shown in the screenshot below. (This is a simulation of the team's existing code base for the website)
+
+        `git add .`
+        `git commit -m "adding the HTNL pages to the website"`
+        `git push`git 
+
+
+    ![Git Upstream](img/git-add-and-commit.PNG)
